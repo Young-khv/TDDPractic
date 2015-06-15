@@ -14,9 +14,11 @@ namespace VideoRentalTests
         [Test]
         public static void RentaCalculatorDebit()
         {
-            Movie movie = new Movie(rentalPrice: 2);
-            Rental rental = new Rental(movie, days: 6);
-            Assert.AreEqual(rental.CalculateDebit(), 12);
+            double rentalPrice = 2;
+            int days = 6;
+            Movie movie = new Movie(rentalPrice: rentalPrice);
+            Rental rental = new Rental(movie, days: days);
+            Assert.AreEqual(rental.CalculateDebit(), days * rentalPrice);
         }
     }
 }

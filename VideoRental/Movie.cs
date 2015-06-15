@@ -7,11 +7,11 @@ namespace VideoRental
 {
     public class Movie
     {
-        private int rentalPrice;
+        private double rentalPrice;
 
-        public int RentalPrice { get { return rentalPrice; } }
+        public double RentalPrice { get { return rentalPrice; } }
 
-        public Movie(int rentalPrice)
+        public Movie(double rentalPrice)
         {
             // TODO: Complete member initialization
             this.rentalPrice = rentalPrice;
