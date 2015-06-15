@@ -12,7 +12,10 @@ namespace VideoRental
 
         public Rental(Movie movie, int days)
         {
-            // TODO: Complete member initialization
+            if (movie == null)
+                throw new ArgumentNullException("movie");
+            if (days < 0)
+                throw new RentalDaysException(days);
             this.movie = movie;
             this.days = days;
         }
@@ -29,7 +32,13 @@ namespace VideoRental
 
         public void SubstractRentalDays(int days = 1)
         {
-            this.days -= days;
+            int daysAfterSubstruct = this.days - days;
+            if (daysAfterSubstruct < 0)
+            {
+                throw new RentalDaysException(daysAfterSubstruct);
+            }
+
+            this.days = daysAfterSubstruct;
         }
     }
 }

@@ -40,5 +40,44 @@ namespace VideoRentalTests
             rental.SubstractRentalDays(2);
             Assert.AreEqual(rental.CalculateDebit(), 2 * 3);
         }
+
+        [Test]
+        public static void ExpectedRentalDaysException()
+        {
+            try
+            {
+                Rental rental = new Rental(new Movie(rentalPrice: 2), days: 6);
+                rental.SubstractRentalDays(7);
+                Assert.Fail();
+            }
+            catch (RentalDaysException e)
+            {
+                Assert.AreEqual(e.Days, -1);
+            }
+
+            catch (Exception)
+            {
+                Assert.Fail();
+            }
+        }
+
+        [Test]
+        public static void ExpectedRentalDaysExceptionConstructor()
+        {
+            try
+            {
+                Rental rental = new Rental(new Movie(rentalPrice: 2), days: -6);
+                Assert.Fail();
+            }
+            catch (RentalDaysException e)
+            {
+                Assert.AreEqual(e.Days, -6);
+            }
+
+            catch (Exception)
+            {
+                Assert.Fail();
+            }
+        }
     }
 }
