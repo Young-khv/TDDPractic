@@ -1,0 +1,9 @@
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.csprojResolveAssemblyReference.cache
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\VideoRentalTests.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\VideoRentalTests.pdb
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\nunit.framework.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\VideoRental.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\VideoRental.pdb
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\nunit.framework.xml
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.dll
+c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.pdb
