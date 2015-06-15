@@ -20,6 +20,11 @@ namespace VideoRental
         public double CalculateDebit()
         {
             return days * movie.RentalPrice;
+        }        
+
+        public void AddRentalDays(int daysCount = 1)
+        {
+            days += daysCount;
         }
     }
 }
