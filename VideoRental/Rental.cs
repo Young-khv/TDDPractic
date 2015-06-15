@@ -22,9 +22,14 @@ namespace VideoRental
             return days * movie.RentalPrice;
         }        
 
-        public void AddRentalDays(int daysCount = 1)
+        public void AddRentalDays(int days = 1)
         {
-            days += daysCount;
+            this.days += days;
+        }
+
+        public void SubstractRentalDays(int days = 1)
+        {
+            this.days -= days;
         }
     }
 }

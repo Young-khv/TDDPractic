@@ -24,12 +24,21 @@ namespace VideoRentalTests
         [Test]
         public static void RentalAddRentalDays()
         {
-
             Rental rental = new Rental(new Movie(rentalPrice: 2), days: 6);
             rental.AddRentalDays();
             Assert.AreEqual(rental.CalculateDebit(), 2 * 7);
             rental.AddRentalDays(2);
             Assert.AreEqual(rental.CalculateDebit(), 2 * 9);
+        }
+
+        [Test]
+        public static void RentalSubstractRentalDays()
+        {
+            Rental rental = new Rental(new Movie(rentalPrice: 2), days: 6);
+            rental.SubstractRentalDays();
+            Assert.AreEqual(rental.CalculateDebit(), 2 * 5);
+            rental.SubstractRentalDays(2);
+            Assert.AreEqual(rental.CalculateDebit(), 2 * 3);
         }
     }
 }
