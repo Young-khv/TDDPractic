@@ -7,28 +7,33 @@ namespace VideoRental
 {
     public class Rental
     {
-        private Movie movie;
+        private RegularMovie regularMovie;
         private int days;
-        public int Days { get { return days; }
-            private set 
+
+        public RegularMovie Movie { get { return regularMovie; } }
+
+        public int Days
+        {
+            get { return days; }
+            private set
             {
-                if(value < 0)
+                if (value < 0)
                     throw new RentalDaysException(value);
                 days = value;
             }
         }
-        public Rental(Movie movie, int days)
+        public Rental(RegularMovie regularMovie, int days)
         {
-            if (movie == null)
-                throw new ArgumentNullException("movie");          
-            this.movie = movie;
+            if (regularMovie == null)
+                throw new ArgumentNullException("regularMovie");
+            this.regularMovie = regularMovie;
             this.Days = days;
         }
 
         public double CalculateDebit()
         {
-            return Days * movie.RentalPrice;
-        }        
+            return Days * regularMovie.RentalPrice;
+        }
 
         public void AddRentalDays(int days = 1)
         {

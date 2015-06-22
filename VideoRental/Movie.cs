@@ -5,16 +5,19 @@ using System.Text;
 
 namespace VideoRental
 {
-    public class Movie
+    public class RegularMovie
     {
         private double rentalPrice;
+        private string name;
 
         public double RentalPrice { get { return rentalPrice; } }
+        public string Name { get { return name; } }
 
-        public Movie(double rentalPrice)
+        public RegularMovie(string name)
         {
             // TODO: Complete member initialization
-            this.rentalPrice = rentalPrice;
+            this.name = name;
+            this.rentalPrice = 2;
         }
     }
 }

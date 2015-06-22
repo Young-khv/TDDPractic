@@ -3,3 +3,8 @@ c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRental\
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRental\obj\Debug\VideoRental.csprojResolveAssemblyReference.cache
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRental\obj\Debug\VideoRental.dll
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRental\obj\Debug\VideoRental.pdb
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRental\bin\Debug\VideoRental.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRental\bin\Debug\VideoRental.pdb
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRental\obj\Debug\VideoRental.csprojResolveAssemblyReference.cache
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRental\obj\Debug\VideoRental.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRental\obj\Debug\VideoRental.pdb

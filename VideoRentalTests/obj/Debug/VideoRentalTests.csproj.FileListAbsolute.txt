@@ -7,3 +7,12 @@ c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalT
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\bin\Debug\nunit.framework.xml
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.dll
 c:\users\arkad_000\documents\visual studio 2013\Projects\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.pdb
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\VideoRentalTests.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\VideoRentalTests.pdb
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\nunit.framework.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\VideoRental.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\VideoRental.pdb
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\bin\Debug\nunit.framework.xml
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.csprojResolveAssemblyReference.cache
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.dll
+C:\Users\Arkadiy\Documents\GitHub\TDDPractic\VideoRentalTests\obj\Debug\VideoRentalTests.pdb
